@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Abril Fatface";
+  src: url("../src/assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf")
+    format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+body {
+  background: #ecf9ff;
+}
+
+.border_left {
+  padding: 0px 0px 0px 15px;
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  border-color: #ffd43a;
+}
+
+.main_button {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #6f34fe;
+  border-radius: 20px 20px 20px 20px;
+  padding: 15px 35px 15px 35px;
+}
+
+.download_button {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+  fill: #6f34fe;
+  color: #6f34fe;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #ffd43a;
+  border-radius: 0px 0px 0px 0px;
+  padding: 0px 0px 4px 0px;
+}
+
+@media (max-width: 768px) {
+  .font_style,
+  .about_text,
+  .skil_text,
+  .heading_title,
+  .info_heading_title {
+    font-size: 32px !important;
+  }
+}
+
+.main_button:hover {
+  border-color: #6f34fe;
+}

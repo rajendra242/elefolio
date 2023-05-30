@@ -1,0 +1,15 @@
+.brand-img {
+  height: 70px;
+  width: 150px;
+}
+
+.nav-link {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #8f91b0 !important;
+}
+
+.main_content {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #f2f2ff 0%, #ebfaff 100%);
+}
